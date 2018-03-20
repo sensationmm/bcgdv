@@ -1,6 +1,6 @@
 ## BCG DV Challenge
 
-A working demo of this app can ve found on Heroku at https://bcgdv.herokuapp.com/
+A working demo of this app can be found on Heroku at https://bcgdv.herokuapp.com/
 
 To get a local version:
 ```
