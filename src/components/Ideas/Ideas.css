@@ -1,0 +1,54 @@
+.ideas-board {
+  position: relative;
+  width: calc(100% - 12px - 40px);
+  height: calc(100vh - 12px - 40px);
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 15px 5px 0 5px;
+  margin: 15px 20px; }
+  .ideas-board-header {
+    text-align: left;
+    text-transform: uppercase;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center; }
+    .ideas-board-header h1 {
+      margin: 0;
+      display: inline; }
+  .ideas-board-sort {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .ideas-board-sort .Select {
+      margin-left: 10px;
+      width: 100px; }
+  .ideas-board .notification {
+    display: inline;
+    padding-left: 30px;
+    color: red; }
+
+.ideas-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .ideas-list-empty {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center; }
+  .ideas-list-add {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 3px;
+    margin: 0px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer; }
